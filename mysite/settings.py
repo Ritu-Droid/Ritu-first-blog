@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_rh9trcqcu=@gtzk7jxo=^l9_-q0zc9k)iwntgn6!%ift%zo)6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com',"onrender.com"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com','ritu-first-blog.onrender.com']
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles','blog'
 ]
 
 MIDDLEWARE = [
